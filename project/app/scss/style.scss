@@ -1,0 +1,46 @@
+$main-font:       Rye, cursive;
+$primary-color:   #8bc34a;
+$secondary-color: #ff9800;
+$bg-color:        #9c27b0;
+$button-color:    #607d8b;
+
+@font-face {
+  font-family: "Rye";
+  src: url("../fonts/Rye-Regular.ttf");
+}
+
+body {
+  background: $bg-color;
+
+  h1 {
+    color: $primary-color;
+    font: 300% $main-font;
+    text-align: center;
+  }
+
+  img {
+    padding: 1%;
+    border:  20px solid $secondary-color;
+    margin: auto;
+    width: 30%;
+    display: block;
+  }
+
+  button {
+    background-color: $button-color;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  div {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
