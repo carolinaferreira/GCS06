@@ -1,0 +1,1 @@
+function clicked_on_me(){document.getElementById("welcomed").innerHTML="It works!"}
